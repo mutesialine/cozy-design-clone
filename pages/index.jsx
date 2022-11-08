@@ -1,5 +1,8 @@
+import Footer from "../Components/layouts/Footer";
 import Navbar from "../Components/layouts/Header";
 import GetCozy from "../Components/layouts/sections/GetCozy";
+import Clients from "../Components/layouts/sections/HomePage/Clients";
+import Designer from "../Components/layouts/sections/HomePage/Designer";
 import Hero from "../Components/layouts/sections/HomePage/Hero";
 export default function Home() {
   return (
@@ -10,6 +13,9 @@ export default function Home() {
       <Navbar />
       <Hero/>
       <GetCozy/>
+      <Clients/>
+      <Designer/>
+      <Footer/>
     </>
   );
 }

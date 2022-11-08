@@ -10,7 +10,7 @@ export default function Hero() {
             <br /> teamfor the <br />
             cost of a <br /> salary.
           </h1>
-          <p className="text-[40px] text-third font-sans font-semibold ">
+          <p className="text-[2.5rem] text-third font-sans font-semibold ">
             Full-service design support that growing B2B and non-profit
             organizations need. Are you strained because you should have a
             design team but you don't?
@@ -21,7 +21,7 @@ export default function Hero() {
         </div>
         <div className=" absolute -right-64 bottom-0">
           <img
-            className="w-[846px] h-[861px]"
+            className="w-[52.875rem] h-[53.8125rem]"
             src="/assets/images/getcozy.png"
           />
         </div>
