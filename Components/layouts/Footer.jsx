@@ -9,10 +9,10 @@ export default function Footer() {
     "twitter.svg",
   ];
   return (
-    <section className=" bg-lightBrown ">
-      <div className="max-w-[75rem] mx-auto pt-12 pb-16">
-        <div className="flex  justify-between items-center pb-16 border-b-[0.1875rem] border-[#d4ac8e]">
-          <div className="flex items-center gap-8">
+    <section className=" hidden lg:block bg-lightBrown ">
+      <div className="max-w-[75rem] mx-auto pt-16 pb-14">
+        <div className="flex  justify-between items-center pb-16 border-b-[0.125rem] border-[#d4ac8e]">
+          <div className="flex items-center gap-12">
             <img
               className="w-[4.5625rem]"
               src="/assets/images/svg/footerlogo.svg"
@@ -26,7 +26,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex gap-8">
-            <div className="flex items-center space-x-4 font-sans">
+            <div className="flex justify-center items-center space-x-4 font-sans">
               <Image
                 src="/assets/images/emoji@2x.webp"
                 alt="emogi"
@@ -40,7 +40,7 @@ export default function Footer() {
                 <Image
                   src="/assets/images/svg/twitter.svg"
                   alt="icons"
-                  width={16}
+                  width={12}
                   height={16}
                 />
               </div>
@@ -48,7 +48,7 @@ export default function Footer() {
                 <Image
                   src="/assets/images/svg/linkedln.svg"
                   alt="icons"
-                  width={16}
+                  width={12}
                   height={16}
                 />
               </div>
@@ -56,7 +56,7 @@ export default function Footer() {
                 <Image
                   src="/assets/images/svg/facebook.svg"
                   alt="icons"
-                  width={16}
+                  width={12}
                   height={16}
                 />
               </div>
@@ -64,7 +64,7 @@ export default function Footer() {
                 <Image
                   src={`/assets/images/svg/instagram.svg`}
                   alt="icons"
-                  width={16}
+                  width={12}
                   height={16}
                 />
               </div>
@@ -88,7 +88,7 @@ export default function Footer() {
                 <Image
                   src={`/assets/images/svg/envelope.svg`}
                   alt="icons"
-                  width={12}
+                  width={13}
                   height={16}
                 />
               </div>
@@ -96,7 +96,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex pt-8 items-center justify-between ">
-          <div className="flex  items-center gap-6">
+          <div className="flex  items-center gap-8">
             <div>
               <Image
                 src="/assets/images/accredited.svg"
@@ -117,7 +117,7 @@ export default function Footer() {
             <Image
               src="/assets/images/Capture.webp"
               alt="brands picture"
-              width={250}
+              width={220}
               height={200}
             />
           </div>

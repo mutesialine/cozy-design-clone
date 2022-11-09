@@ -59,7 +59,7 @@ export default function Designer(){
       </div>
 
       <div className=" relative bg-[#b55730] ">
-        <p className="text-5xl text-white font-sans font-bold text-center py-[3.5rem] px-[3.4688rem]">
+        <p className="text-5xl leading-[54px] text-white font-sans font-bold text-center py-[60px] px-[3.4688rem]">
           🙋 How can we help?
         </p>
       </div>

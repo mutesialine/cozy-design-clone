@@ -18,7 +18,7 @@ export default function GetCozy() {
   return (
     <div className="background-getCozy">
       <section className=" max-w-[75rem] py-[9rem]  mx-auto  flex  ">
-        <div className="flex flex-col max-w-[50rem]  pl-[9rem]   gap-10">
+        <div className="flex flex-col max-w-[50rem] px-8 lg:px-0 lg:pl-[9rem]   gap-10">
           <p className="text-[1.875rem] font-bold">🌴🐻🇺🇸</p>
           <div>
             <h1 className="text-[4.375rem] text-[#223240] leading-[4.8125rem] font-sans">
