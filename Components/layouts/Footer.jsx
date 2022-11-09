@@ -10,14 +10,14 @@ export default function Footer() {
   ];
   return (
     <section className=" bg-lightBrown ">
-      <div className="max-w-[1200px] mx-auto pt-12 pb-16">
-        <div className="flex  justify-between items-center pb-16 border-b-[3px] border-[#d4ac8e]">
+      <div className="max-w-[75rem] mx-auto pt-12 pb-16">
+        <div className="flex  justify-between items-center pb-16 border-b-[0.1875rem] border-[#d4ac8e]">
           <div className="flex items-center gap-8">
             <img
               className="w-[4.5625rem]"
               src="/assets/images/svg/footerlogo.svg"
             />
-            <div className="flex space-x-6 text-orange font-sans">
+            <div className="flex space-x-8 text-sm text-darkorange font-sans ">
               <Link href="#">About</Link>
               <Link href="#">Service</Link>
               <Link href="#">Work</Link>
@@ -30,8 +30,8 @@ export default function Footer() {
               <Image
                 src="/assets/images/emoji@2x.webp"
                 alt="emogi"
-                width={16}
-                height={16}
+                width={20}
+                height={20}
               />
               <p className=" text-lightred">San Diego Digital Designers</p>
             </div>
@@ -80,7 +80,7 @@ export default function Footer() {
                 <Image
                   src={`/assets/images/svg/clutch.svg`}
                   alt="icons"
-                  width={16}
+                  width={12}
                   height={16}
                 />
               </div>
@@ -88,7 +88,7 @@ export default function Footer() {
                 <Image
                   src={`/assets/images/svg/envelope.svg`}
                   alt="icons"
-                  width={16}
+                  width={12}
                   height={16}
                 />
               </div>
@@ -104,7 +104,7 @@ export default function Footer() {
                 width={140}
                 height={200}
               />
-              <p className="font-sans uppercase text-sm text-[#2d4850] text-center">
+              <p className="font-sans uppercase text-sm pl-2 pt-2 font-bold text-[#2d4850] text-center">
                 BBB rating: A+
               </p>
             </div>
@@ -115,17 +115,17 @@ export default function Footer() {
               height={150}
             />
             <Image
-              src="/assets/images/Capture.png"
+              src="/assets/images/Capture.webp"
               alt="brands picture"
               width={250}
               height={200}
             />
           </div>
           <div className=" flex gap-6 flex-end">
-            <p className="text-xs text-[#223240]">
+            <p className="text-xs text-darkblue">
               Made with ❤️ in beautiful, sunny San Diego. ©2021
             </p>
-            <div className=" space-x-4 text-xs text-orange font-sans">
+            <div className=" space-x-4 text-xs leading-4 text-darkorange font-sans">
               <Link href="#">Privacy</Link>
               <Link href="#">Photo Edit</Link>
             </div>

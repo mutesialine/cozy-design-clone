@@ -16,7 +16,7 @@ export default function GetCozy() {
     "/Design-Rush.webp",
   ];
   return (
-    <div className="bg-[#d6c9bd] background-about">
+    <div className="background-getCozy">
       <section className=" max-w-[75rem] py-[9rem]  mx-auto  flex  ">
         <div className="flex flex-col max-w-[50rem]  pl-[9rem]   gap-10">
           <p className="text-[1.875rem] font-bold">🌴🐻🇺🇸</p>

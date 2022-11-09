@@ -14,6 +14,7 @@ module.exports = {
         third: "#e4ded5",
         lightred: "#d90f54",
         orange: "#c47d57",
+        darkblue: "#223240",
       },
       backgroundColor: {
         darkBlue: "#29303c",

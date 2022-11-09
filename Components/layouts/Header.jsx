@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 export default function Header() {
   let menulink = [
@@ -26,8 +27,9 @@ export default function Header() {
 
   return (
     <div className=" z-50 fixed top-0 w-full background-gradient-header pl-14 pr-6 py-6 flex justify-between items-center">
-      <img
-        className="w-[6.25rem] h-[4.3125rem] "
+      <Image
+         width={100}
+         height={69}
         src="/assets/images/svg/logo.svg"
         alt="logo"
       />

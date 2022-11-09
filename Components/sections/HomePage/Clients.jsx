@@ -9,17 +9,22 @@ export default function Clients() {
         <div className="w-10 h-[0.3125rem] bg-[#d4ac8e] mt-5"></div>
       </div>
 
-      <div className="relative">
-        {/* <div className=" absolute flex justify-center items-center  bg-white rounded-full">
-          <Image
-            src="/assets/images/svg/chaticon.svg"
-            alt="chat icon"
-            width={96}
-            height={96}
-          />
-        </div> */}
-        <div className=" relative max-w-[75rem] mx-auto flex justify-center space-x-10 ">
-          <div className=" flex items-end justify-end w-full">
+      <div className="relative space-y-7">
+        <div className=" max-w-[75rem] mx-auto flex justify-center space-x-8 ">
+          <div className=" relative  flex items-end justify-end w-full">
+            <div className=" -bottom-20 -right-20 p-2 absolute  border-2 border-white rounded-full border-opacity-20">
+              <div className="p-2 border-2 border-white rounded-full border-opacity-50">
+                <div className="bg-lightBrown p-10 rounded-full flex justify-center  items-center ">
+                  <Image
+                    src="/assets/images/svg/chaticon.svg"
+                    alt="chat icon"
+                    width={30}
+                    height={30}
+                  />
+                </div>
+              </div>
+            </div>
+
             <div className=" flex flex-col py-20 w-[80%] mt-auto h-fit pr-10 pl-[3.75rem] space-y-6 text-white bg-[url('/assets/images/noise.webp')] bg-[#223240] rounded-tr-[60%] rounded-tl-[60%] rounded-bl-[80%]">
               <Image
                 src="/assets/images/susie.webp"
@@ -75,13 +80,13 @@ export default function Clients() {
             </div>
           </div>
         </div>
-        <div className=" relative max-w-[75rem] mx-auto  flex justify-center items-start  space-x-10  ">
+        <div className=" max-w-[75rem] mx-auto  flex justify-center items-start  space-x-8 ">
           <div className=" flex justify-end w-full">
-            <div className="bg-[url('/assets/images/noise.webp')] bg-whiteBrown w-[68%] py-20 mt-auto h-fit px-[60px] space-y-6 text-white rounded-br-[60%] rounded-bl-[60%] rounded-tl-[80%] text-end">
+            <div className="bg-[url('/assets/images/noise.webp')] bg-whiteBrown w-[68%] py-20 mt-auto h-fit px-[4rem] space-y-6 text-white rounded-br-[60%] rounded-bl-[60%] rounded-tl-[80%] text-end">
               <Image
                 src="/assets/images/blackmanprofile.webp"
                 alt="black profile"
-                className="ml-auto border-2 border-white rounded-2xl "
+                className="ml-auto border-2 border-white rounded-2xl  saturate-0 mix-blend-luminosity"
                 width={74}
                 height={74}
               />
@@ -92,7 +97,7 @@ export default function Clients() {
                 They were a pleasure to work with and I'm really happy with the
                 results. They pretty much nailed it.
               </p>
-              <div className="text-xs text-primary text-right tracking-[4px]">
+              <div className="text-xs text-primary text-right tracking-[0.25rem]">
                 MICHAEL WEISFELD
               </div>
               <div className="text-[0.75rem] text-right text-primary opacity-70">
@@ -101,13 +106,13 @@ export default function Clients() {
             </div>
           </div>
           <div className="w-full">
-            <div className=" bg-[url('/assets/images/noise.webp')] bg-darkorange w-[85%] rounded-tr-[100%] space-y-6 rounded-br-[60%] pr-10 rounded-bl-[60%] py-20 pl-[60px] text-start  ">
+            <div className=" bg-[url('/assets/images/noise.webp')] bg-darkorange w-[85%] rounded-tr-[100%] space-y-6 rounded-br-[60%] pr-10 rounded-bl-[60%] py-20 pl-[3.75rem] text-start  ">
               <Image
                 src="/assets/images/whitemanprofile.webp"
                 alt="boy profile"
                 width={74}
                 height={74}
-                className="mr-auto border-2 border-white rounded-2xl "
+                className="mr-auto border-2 border-white rounded-2xl saturate-0 mix-blend-luminosity"
               />
               <h5 className="font-sans font-bold text-white text-[1.25rem]  ">
                 “The project was successful”
@@ -117,7 +122,9 @@ export default function Clients() {
                 the right things. The quality of their work is high, and all the
                 deliverables are very well-organized and professional.
               </p>
-              <div className="text-xs text-primary uppercase tracking-[0.25rem] ">Eric weiss</div>
+              <div className="text-xs text-primary uppercase tracking-[0.25rem] ">
+                Eric weiss
+              </div>
               <div className="text-[0.75rem] text-xs text-primary opacity-70">
                 Director of Digital Marketing @ National Funding
               </div>
