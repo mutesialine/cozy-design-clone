@@ -13,7 +13,8 @@ module.exports = {
         secondary: "#d4ac8e",
         darkorange: "#b55730",
         third: "#e4ded5",
-        lightred: "#d90f54"
+        lightred: "#d90f54",
+        orange: "#c47d57",
       },
       backgroundColor: {
         darkBlue: "#29303c",

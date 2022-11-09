@@ -3,7 +3,7 @@ export default function Designer(){
     <>
       <div className="bg-fullblackblue">
         <div className="max-w-[75rem] mx-auto py-16 px-20 space-y-14 overflow-hidden">
-          <h2 className=" text-center text-secondary font-[300] italic font-sans text-[1.875rem] ">
+          <h2 className=" text-center text-secondary font-semibold opacity-70 italic font-sans text-[1.875rem] ">
             More than 150 happy clients
           </h2>
           <div className="flex justify-center gap-10">
@@ -25,12 +25,12 @@ export default function Designer(){
         </div>
       </div>
       <div className=" relative overflow-hidden">
-        <div className="absolute ">
+        <div className="absolute w-full h-full">
           <video
             autoPlay
             muted
             loop
-            className=""
+            className="object-cover w-full"
             src="/assets/video/Computer-transcode.mp4 "
           />
         </div>
@@ -59,7 +59,7 @@ export default function Designer(){
       </div>
 
       <div className=" relative bg-[#b55730] ">
-        <p className="text-5xl text-primary font-sans text-center py-[3.5rem] px-[3.4688rem]">
+        <p className="text-5xl text-white font-sans font-bold text-center py-[3.5rem] px-[3.4688rem]">
           🙋 How can we help?
         </p>
       </div>

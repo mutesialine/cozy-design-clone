@@ -1,5 +1,5 @@
 import Link from "next/link";
-export default function Navbar() {
+export default function Header() {
   let menulink = [
     {
       name: "Get Cozy",
@@ -25,13 +25,13 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="background-gradient-header pl-14 pr-6 py-6 flex justify-between items-center">
+    <div className=" z-50 fixed top-0 w-full background-gradient-header pl-14 pr-6 py-6 flex justify-between items-center">
       <img
         className="w-[6.25rem] h-[4.3125rem] "
         src="/assets/images/svg/logo.svg"
         alt="logo"
       />
-      <div className="  flex justify-end  font-sans font-semibold space-x-6  ">
+      <div className="  flex justify-end  font-sans font-semibold space-x-6 pr-8  ">
         {menulink.map((v, i) => {
           return (
             <Link
